@@ -1,0 +1,273 @@
+<html><head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Travel Website</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<!-- navigation menu-->
+
+	<nav class="navbar navbar-expand-lg bg-custom ">
+  <a class="navbar-brand" href="#">Tourism</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Home </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Tour Packages
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">A</a>
+          <a class="dropdown-item" href="#">B</a>
+          <a class="dropdown-item" href="#">C</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact us</a>
+      </li>
+    </ul>
+
+  
+    <span class="navbar-text">
+    	<a href="#loginmodal" data-toggle="modal"> Login </a>
+    </span>
+    
+  </div>
+</nav>
+
+
+<!--  end of navigation menu-->
+
+
+
+ <div class="jumbotron">
+ 	<div id="textdata">
+      <h1 class="display-4">Welcome to Parikrama Tourism</h1>
+      <p></p><h2>Plan your Trip! Book with Us</h2><p></p>
+      <p class="lead">Travel is the movement of people between distant 
+      geographical location.Travel can be done by foot,car.</p>
+      <hr class="my-4">
+  
+      <p class="lead">
+       <a class="btn btn-outline-info" href="#" role="button">Explore More</a>
+      </p>
+    </div>
+
+    
+    <div id="image data">
+    	<img src="images/123.png">
+    </div>
+</div>
+
+
+<!-- login modal -->
+
+<div class="modal" tabindex="-1" role="dialog" id="loginmodal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+        	<div class="form-group">
+        		<input type="email id" placeholder="email id" class="form-control">
+        	</div>
+        	<div class="form-group">
+        		<input type="password" placeholder="password" class="form-control">
+        	</div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Login</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- end of login modal -->
+
+
+<!-- slider part-->
+<div class="container">
+ 	<h1 class="text-center my-3"> <u>Travel Gallery</u> </h1>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+	<li data-slider-to="0" data-targrt="#demo" class=""> </li>
+	<li data-slider-to="1" data-targrt="#demo" class="active"> </li>
+	<li data-slider-to="2" data-targrt="#demo" class=""> </li>
+  </ul>
+
+
+  <div class="carousel-inner">
+	<div class="carousel-item">
+		<img src="images/t2.jpg" class="img-fluid">
+	</div>
+	<div class="carousel-item active">
+		<img src="images/t3.jpg" class="img-fluid">
+	</div>
+	<div class="carousel-item">
+		<img src="images/t1.jpg" class="img-fluid">
+	</div>
+  </div>
+</div>
+</div>
+
+<!-- end of slider part-->
+
+<!-- about us section-->
+       
+ <div class="container">
+ 	<h1 class="text-center my-3"><u> About </u> <span><u>Our Travel Agency</u></span> </h1>
+ 	<div class="row">
+ 		<div class="col-md-6">
+ 			<img src="images/background.png" class="img-fluid">
+ 		</div>
+ 		<div class="col-md-6">
+ 			<p>
+ 				"Ready to start planning our next adventure?explore our website to find your perfect destination or contact our team for personalized travel recommendations"
+ 			</p>
+ 			<p>
+ 				 we are passionate about helping people to explore the world our mission is to make travel accessible and enjoyable for everyone.we believe that travel should be sustainable and responsible we are committed to minimising our impact on the environment and supporting local communicate.wherever we go we also believe in providing our customers with exceptional service every step on the way.our team is made up of passionate travelers who have a wealth of knowledge and experience in the travel industry from our expert travel advisor to our friendly customer service team.we are proud to have been named the best travel company by travel weekly for 3 years in a row our commitment to exceptional customer service has also on us a 5 star rating on the trip advisor and we are thrilled to have helped thousands of Traveller create unforgettable memories
+ 			</p>
+ 		</div>
+ 	</div>
+ </div> 
+<!-- end of about us section-->
+
+<!-- feature dest.-->
+
+  <div class="container">
+  	<h1><u> Featured Destination</u> </h1>
+  	<div class="row">
+  		<div class="col-md-4">
+  			<div class="feature-box">
+  				<div class="feature-img">
+  					<img src="images/afr.png">
+  					
+  				</div>
+  			</div>
+  			<div class="feature-footer">
+  				<a class="btn btn-outline-info" href="#" role="button">Book Now 15% Off</a>
+  			</div>
+  		</div>
+  		
+  
+  		
+  <div class="col-md-4">
+        <div class="feature-box">
+           <div class="feature-img">
+             <img src="images/ind.png">
+
+           </div>
+        </div>
+        <div class="feature-footer">
+  				<a class="btn btn-outline-info" href="#" role="button">Book Now 25% Off</a>
+  			</div>
+  </div>
+ 
+  <div class="col-md-4">
+        <div class="feature-box">
+           <div class="feature-img">
+             <img src="images/jap.png">
+           </div>
+        </div>
+        <div class="feature-footer">
+  				<a class="btn btn-outline-info" href="#" role="button">Book Now 10% Off</a>
+  			</div>
+  </div>
+   
+   <div class="col-md-4">
+        <div class="feature-box">
+           <div class="feature-img">
+             <img src="images/thai.png">
+           </div>
+        </div>
+        <div class="feature-footer">
+  				<a class="btn btn-outline-info" href="#" role="button">Book Now 15% Off</a>
+  			</div>
+  </div>
+
+  <div class="col-md-4">
+        <div class="feature-box">
+           <div class="feature-img">
+             <img src="images/goa.png">
+           </div>
+        </div>
+        <div class="feature-footer">
+  				<a class="btn btn-outline-info" href="#" role="button">Book Now 30% Off</a>
+  			</div>
+  </div>
+
+  <div class="col-md-4">
+        <div class="feature-box">
+           <div class="feature-img">
+             <img src="images/cas.png">
+           </div>
+        </div>
+        <div class="feature-footer">
+  			<a class="btn btn-outline-info" href="#" role="button">Book Now 25% Off</a>
+  		</div>
+  </div>
+
+<!-- end of feature dest.-->
+
+ 
+
+
+<!-- footer part-->
+
+
+  <div class="footer">
+        <div class="container">
+            <div class="row">
+            	
+                
+                <div class="col-md-3">
+                    <h4>Service</h4>
+                     <p>Flight Booking</p>
+                     <p>Booking Hotel</p>
+                     <p>Arrange Tour</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Contact</h4>
+                     <p><i class="fa fa-phone-square"></i>+1 0123456789</p>
+                     <p><i class="fa fa-envelope"></i>abc@travel.com</p>
+                     <p><i class="fa fa-home"></i>xyz road,ABC City</p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Follow Us on</h4>
+                     <p><i class="fa fa-facebook-official"></i>facebook</p>
+                     <p><i class="fa fa-youtube-play"></i>youtube</p>
+                     <p><i class="fa fa-twitter"></i>Twitter</p>
+                </div>
+                 <div class="col-md-3">
+                    <img src="images/banner1.png" class="footer-logo">
+                     <h6>Get 30% on top destination</h6>
+                       <p></p><h6>Book your tickets before 31st march and avail 30% flat discount.</h6><p></p>
+            </div><hr>
+              
+        </div>
+    </div>
+    <!-- end of footer part-->
+
+</div></div></div></body></html>
